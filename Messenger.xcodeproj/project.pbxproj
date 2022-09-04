@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		CE712D9828C48E7100100DF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE712D9728C48E7100100DF7 /* AppDelegate.swift */; };
-		CE712D9A28C48E7100100DF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE712D9928C48E7100100DF7 /* SceneDelegate.swift */; };
-		CE712D9C28C48E7100100DF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE712D9B28C48E7100100DF7 /* ViewController.swift */; };
-		CE712D9F28C48E7100100DF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE712D9D28C48E7100100DF7 /* Main.storyboard */; };
 		CE712DA128C48E7700100DF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE712DA028C48E7700100DF7 /* Assets.xcassets */; };
 		CE712DA428C48E7700100DF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE712DA228C48E7700100DF7 /* LaunchScreen.storyboard */; };
+		CE712DB228C49F8900100DF7 /* ConversationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE712DB028C49F8900100DF7 /* ConversationsVC.swift */; };
+		CE712DB328C49F8900100DF7 /* ConversationsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE712DB128C49F8900100DF7 /* ConversationsVC.xib */; };
+		CE712DB528C4A04F00100DF7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE712DB428C4A04F00100DF7 /* LoginVC.swift */; };
+		CE712DB728C4A1F300100DF7 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE712DB628C4A1F300100DF7 /* RegisterVC.swift */; };
+		CE712DB928C4A2CC00100DF7 /* PhotoViewerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE712DB828C4A2CC00100DF7 /* PhotoViewerVC.swift */; };
+		CE712DBB28C4A2F600100DF7 /* VideoPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE712DBA28C4A2F600100DF7 /* VideoPlayerVC.swift */; };
+		CE712DBD28C4A33800100DF7 /* NewConversationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE712DBC28C4A33800100DF7 /* NewConversationVC.swift */; };
+		CE712DBF28C4A36900100DF7 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE712DBE28C4A36900100DF7 /* ProfileVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE712D9428C48E7100100DF7 /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE712D9728C48E7100100DF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE712D9928C48E7100100DF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE712D9B28C48E7100100DF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE712D9E28C48E7100100DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE712DA028C48E7700100DF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE712DA328C48E7700100DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE712DA528C48E7700100DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE712DB028C49F8900100DF7 /* ConversationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsVC.swift; sourceTree = "<group>"; };
+		CE712DB128C49F8900100DF7 /* ConversationsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConversationsVC.xib; sourceTree = "<group>"; };
+		CE712DB428C4A04F00100DF7 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		CE712DB628C4A1F300100DF7 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		CE712DB828C4A2CC00100DF7 /* PhotoViewerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerVC.swift; sourceTree = "<group>"; };
+		CE712DBA28C4A2F600100DF7 /* VideoPlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerVC.swift; sourceTree = "<group>"; };
+		CE712DBC28C4A33800100DF7 /* NewConversationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationVC.swift; sourceTree = "<group>"; };
+		CE712DBE28C4A36900100DF7 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,60 @@
 		CE712D9628C48E7100100DF7 /* Messenger */ = {
 			isa = PBXGroup;
 			children = (
-				CE712D9728C48E7100100DF7 /* AppDelegate.swift */,
-				CE712D9928C48E7100100DF7 /* SceneDelegate.swift */,
-				CE712D9B28C48E7100100DF7 /* ViewController.swift */,
-				CE712D9D28C48E7100100DF7 /* Main.storyboard */,
+				CE712DAF28C49E0400100DF7 /* Resources */,
+				CE712DAE28C49DA400100DF7 /* ViewModels */,
+				CE712DAD28C49D9300100DF7 /* Models */,
+				CE712DAC28C49D8900100DF7 /* Views */,
+				CE712DAB28C49D6900100DF7 /* Controllers */,
 				CE712DA028C48E7700100DF7 /* Assets.xcassets */,
 				CE712DA228C48E7700100DF7 /* LaunchScreen.storyboard */,
 				CE712DA528C48E7700100DF7 /* Info.plist */,
 			);
 			path = Messenger;
+			sourceTree = "<group>";
+		};
+		CE712DAB28C49D6900100DF7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE712DB028C49F8900100DF7 /* ConversationsVC.swift */,
+				CE712DB428C4A04F00100DF7 /* LoginVC.swift */,
+				CE712DB628C4A1F300100DF7 /* RegisterVC.swift */,
+				CE712DB828C4A2CC00100DF7 /* PhotoViewerVC.swift */,
+				CE712DBA28C4A2F600100DF7 /* VideoPlayerVC.swift */,
+				CE712DBC28C4A33800100DF7 /* NewConversationVC.swift */,
+				CE712DBE28C4A36900100DF7 /* ProfileVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE712DAC28C49D8900100DF7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE712DB128C49F8900100DF7 /* ConversationsVC.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE712DAD28C49D9300100DF7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE712DAE28C49DA400100DF7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CE712DAF28C49E0400100DF7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE712D9728C48E7100100DF7 /* AppDelegate.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +182,7 @@
 			files = (
 				CE712DA428C48E7700100DF7 /* LaunchScreen.storyboard in Resources */,
 				CE712DA128C48E7700100DF7 /* Assets.xcassets in Resources */,
-				CE712D9F28C48E7100100DF7 /* Main.storyboard in Resources */,
+				CE712DB328C49F8900100DF7 /* ConversationsVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +193,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE712D9C28C48E7100100DF7 /* ViewController.swift in Sources */,
 				CE712D9828C48E7100100DF7 /* AppDelegate.swift in Sources */,
-				CE712D9A28C48E7100100DF7 /* SceneDelegate.swift in Sources */,
+				CE712DB728C4A1F300100DF7 /* RegisterVC.swift in Sources */,
+				CE712DBD28C4A33800100DF7 /* NewConversationVC.swift in Sources */,
+				CE712DB228C49F8900100DF7 /* ConversationsVC.swift in Sources */,
+				CE712DBF28C4A36900100DF7 /* ProfileVC.swift in Sources */,
+				CE712DB928C4A2CC00100DF7 /* PhotoViewerVC.swift in Sources */,
+				CE712DB528C4A04F00100DF7 /* LoginVC.swift in Sources */,
+				CE712DBB28C4A2F600100DF7 /* VideoPlayerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE712D9D28C48E7100100DF7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE712D9E28C48E7100100DF7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE712DA228C48E7700100DF7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,8 +344,8 @@
 				INFOPLIST_FILE = Messenger/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,8 +373,8 @@
 				INFOPLIST_FILE = Messenger/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
